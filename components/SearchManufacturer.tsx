@@ -5,7 +5,6 @@ import Image from "next/image";
 import { SearchManufacturerProps } from "@/types";
 import { Combobox, Transition } from "@headlessui/react";
 import { manufacturers } from "@/constants";
-import { Combo } from "next/font/google";
 
 const SearchManufacturer = ({
   manufacturer,
