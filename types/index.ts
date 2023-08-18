@@ -4,6 +4,9 @@ export interface CustomButtonProps {
   title: string;
   btnType?: "button" | "submit" | "reset";
   containerStyles?: string;
+  textStyles?: string;
+  rightIcon?: string;
+  isDisabled?: boolean;
   handleClick?: MouseEventHandler<HTMLButtonElement>;
 }
 
@@ -24,6 +27,6 @@ export interface CarProps {
   highway_mpg: number;
   make: string;
   model: string;
-  transmission:string;
+  transmission: string;
   year: number;
 }
