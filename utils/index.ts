@@ -6,7 +6,7 @@ export async function fetchCars(make: string) {
     "X-RapidAPI-Host": "cars-by-api-ninjas.p.rapidapi.com",
   };
 
-  const response = await fetch(url + "?make=bmw", { headers: headers });
+  const response = await fetch(url + "?make=ford", { headers: headers });
 
   const result = await response.json();
 
